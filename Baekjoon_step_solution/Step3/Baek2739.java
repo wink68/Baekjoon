@@ -1,3 +1,6 @@
+/*백준 2739번: 구구단*/
+/*JAVA 문제 풀이*/
+
 package step3;
 
 import java.io.BufferedReader;
