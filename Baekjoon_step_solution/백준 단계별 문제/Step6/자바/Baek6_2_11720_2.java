@@ -20,7 +20,7 @@ public class Baek6_2_11720_2 {
 		int sum = 0;
 			
 		for (int i=0; i < number.length; i++) {             // 예시 "문자열 321" : 3 + 2 + 1   // 배열의 길이 = N
-			sum += number[i] -'0';                          // (배열) 각 자리수 총 합
+			sum += number[i] -'0';                      // (배열) 각 자리수 총 합
 				
 		}
 		System.out.print(sum);
