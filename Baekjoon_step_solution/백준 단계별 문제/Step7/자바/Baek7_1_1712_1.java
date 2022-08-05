@@ -18,12 +18,12 @@ public class Baek7_1_1712_1 {
 		int B = Integer.parseInt(st.nextToken());
 		int C = Integer.parseInt(st.nextToken());
 		
-		if (C-B <= 0) {                          // 손익분기점 n = A/(C-B)
-			System.out.println("-1");            // n이 0 또는 음수여야 손익 발생 X
+		if (C-B <= 0) {                             // 손익분기점 n = A/(C-B)
+			System.out.println("-1");           // n이 0 또는 음수여야 손익 발생 X
 		}
 		
 		else {
-			System.out.println((A/(C-B)) +1);    // 손익분기점보다 1개 더 많이 팔아야 수익권
+			System.out.println((A/(C-B)) +1);   // 손익분기점보다 1개 더 많이 팔아야 수익권
 		}
 
 	}
