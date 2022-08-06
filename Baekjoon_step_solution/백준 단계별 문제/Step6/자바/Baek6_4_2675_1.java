@@ -12,7 +12,7 @@ public class Baek6_4_2675_1 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int T = Integer.parseInt(br.readLine());      // T = 전체 테스트 케이스 수
+		int T = Integer.parseInt(br.readLine());          // T = 전체 테스트 케이스 수
 		
 		for (int i=0; i < T; i++) {
 			String[] str = br.readLine().split(" ");  // R과 S 분리
@@ -21,7 +21,7 @@ public class Baek6_4_2675_1 {
 			String S = str[1];                        // S = 입력해야 할 문자열
 			
 			for (int j=0; j < S.length(); j++) {
-				for (int k=0; k < R; k++) {           // R번만큼 반복 출력
+				for (int k=0; k < R; k++) {       // R번만큼 반복 출력
 					System.out.print(S.charAt(j));
 				}
 			}
