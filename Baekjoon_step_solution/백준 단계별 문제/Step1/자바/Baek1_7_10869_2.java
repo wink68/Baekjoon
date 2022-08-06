@@ -1,4 +1,4 @@
-/* 백준 10869번(step1-9): 사칙연산 */
+/* 백준 10869번(step1-7): 사칙연산 */
 /* JAVA - BufferedReader, StringTokenizer */
 
 package step1;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Baek1_9_10869_2 {
+public class Baek1_7_10869_2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
