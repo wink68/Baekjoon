@@ -11,7 +11,7 @@ public class Baek1_10_10926_1 {
 		Scanner scanner = new Scanner(System.in);
 		
 		String a = scanner.nextLine();    // String 변수 = scanner.nextLine()
-									      // : 입력된 한 행을 문자열로 변수에 저장
+						  // : 입력된 한 행을 문자열로 변수에 저장
 		System.out.println(a + "??!");
 		scanner.close();
 
