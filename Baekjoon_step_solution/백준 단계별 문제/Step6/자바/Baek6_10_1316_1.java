@@ -29,10 +29,10 @@ public class Baek6_10_1316_1 {
 				}
 				
 				// 2번째 알파벳
-				if (prev == word.charAt(j)) {               // 1번째 = 2번째 알파벳
+				if (prev == word.charAt(j)) {                       // 1번째 = 2번째 알파벳
 					continue;
 				} else {
-					if (array[word.charAt(j) - 97] != 1) {  // 이미 등장한 알파벳이 아니라면 array 배열의 값은 0
+					if (array[word.charAt(j) - 97] != 1) {      // 이미 등장한 알파벳이 아니라면 array 배열의 값은 0
 						array[word.charAt(j) - 97] = 1;
 						prev = word.charAt(j);              // 2번째 알파벳 값 대입
 					} else {
