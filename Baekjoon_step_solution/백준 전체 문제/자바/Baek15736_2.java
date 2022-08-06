@@ -20,7 +20,7 @@ public class Baek15736_2 {
 		int N = Integer.parseInt(br.readLine());  // 사람 수
 		
 		System.out.print((int) Math.sqrt(N));     // Math.sqrt(N) = 루트 = 제곱근
-                                                  // 규칙을 보면 9~15는 제곱근 3, 4~8은 제곱근 2만 출력
+                                                          // 규칙을 보면 9~15는 제곱근 3, 4~8은 제곱근 2만 출력
 	}
 
 }
