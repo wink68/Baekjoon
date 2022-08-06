@@ -13,7 +13,7 @@ public class Baek1_10_10926_2 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		String a = br.readLine();    // String 변수 = br.readLine()
-									 // : br에 입력된 한 줄을 문자열로 변수에 저장
+					     // : br에 입력된 한 줄을 문자열로 변수에 저장
 		System.out.println(a + "??!");
 		br.close();
 
