@@ -1,4 +1,4 @@
-/* 백준 10998번(step1-7): AXB */
+/* 백준 10869번(step1-7): 사칙연산 */
 /* JAVA - BufferedReader, StringTokenizer */
 
 package step1;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Baek1_7_10998 {
+public class Baek1_7_10869_2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +17,11 @@ public class Baek1_7_10998 {
 		int A =Integer.parseInt(st.nextToken());   // 쪼개진 문자열(토큰) → 정수
 		int B =Integer.parseInt(st.nextToken());   // 쪼개진 문자열(토큰) → 정수
 		
-		System.out.println(A*B);
+		System.out.println(A + B);
+		System.out.println(A - B);
+		System.out.println(A * B);
+		System.out.println(A / B);
+		System.out.println(A % B);
 
 	}
 
