@@ -1,4 +1,4 @@
-/* 백준 2675번(step6-5): 단어 공부 */
+/* 백준 1157번(step6-5): 단어 공부 */
 /* JAVA - BufferedReader */
 
 package step6;
@@ -17,7 +17,7 @@ public class Baek6_5_1157 {
 		
 		
 		for (int i=0; i < S.length(); i++) {
-			if (65 <= S.charAt(i) && S.charAt(i) <= 90) {  // 대문자 범위 (아스키 코드값)
+			if (65 <= S.charAt(i) && S.charAt(i) <= 90) {      // 대문자 범위 (아스키 코드값)
 				alphabet[S.charAt(i) -65]++;               // 해당 대문자 알파벳 횟수 1 추가
 			}
 			else {
@@ -34,7 +34,7 @@ public class Baek6_5_1157 {
 				most = alphabet[i];          // most값 → 가장 많이 사용된 알파벳의 횟수로 변경
 				ch = (char) (i + 65);        // 문자로 출력해야 하므로 +65 (아스키 코드값)
 			}
-			else if (alphabet[i] == most) {  // 이미 입력된 값이랑 동일하다는 것 = 최빈도 알파벳이 여러개
+			else if (alphabet[i] == most) {      // 이미 입력된 값이랑 동일하다는 것 = 최빈도 알파벳이 여러개
 				ch = '?';
 			}
 		}
