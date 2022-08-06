@@ -1,4 +1,4 @@
-/* 백준 18108번(step1-11): 1998년생인 내가 태국에서는 2541년생?! */
+/* 백준 18108번(step1-9): 1998년생인 내가 태국에서는 2541년생?! */
 /* JAVA - BufferedReader */
 
 package step1;
@@ -7,7 +7,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Baek1_11_18108 {
+public class Baek1_9_18108_2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
