@@ -15,7 +15,7 @@ public class Baek6_2_11720_1 {
 		int sum = 0;
 			
 		for (int i=0; i < N; i++) {               // 예시 "문자열 321" : 3 + 2 + 1
-			sum += a.charAt(i) -'0';              // 각 자리수 총 합
+			sum += a.charAt(i) -'0';          // 각 자리수 총 합
 				
 		}
 		System.out.print(sum);
