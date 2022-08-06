@@ -1,4 +1,4 @@
-/* 백준 2588번(step1-13): 곱셈 */
+/* 백준 2588번(step1-12): 곱셈 */
 /* JAVA - BufferedReader */
 
 package step1;
@@ -7,7 +7,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Baek1_13_2588 {
+public class Baek1_12_2588 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
