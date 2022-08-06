@@ -24,7 +24,7 @@ public class Baek6_3_10809_1 {
 		// 2단계 : 문자 S에 해당하는 알파벳의 값 변경
 		for (int i=0; i < S.length(); i++) {            // i는 알파벳이 문자 S의 어디에 위치하는지
 			int alpha = S.charAt(i) -97;            // alpha는 배열 alphabet에서 알바벳의 위치
-                                                    // 아스키코드 a가 97이므로, 알파벳 a는 0이 되도록 97을 빼준다
+                                                                // 아스키코드 a가 97이므로, 알파벳 a는 0이 되도록 97을 빼준다
 			if (alphabet[alpha] == -1) {
 				alphabet[alpha] = i;            // 단어 S를 구성하는 알파벳이 존재하면, -1를 그 위치값으로 바꿔줌
 			}                                       // 예시 baekjoon
