@@ -16,9 +16,9 @@ public class Baek5_3_1065 {
 	}
 
 	public static int hansu(int number) {
-		int count = 0;        // 한수 카운팅
+		int count = 0;            // 한수 카운팅
 		
-		if (number < 100) {   // 100보다 작은 2자리 수는 전부 수열이므로
+		if (number < 100) {       // 100보다 작은 2자리 수는 전부 수열이므로
 			return number;    // 수 = 수열 갯수
 		}
 		
@@ -31,7 +31,7 @@ public class Baek5_3_1065 {
 				int num0 = i % 10;                         // 1의 자리수
 				
 				if ((num000 - num00) == (num00 - num0)) {  // 자리수의 차이 = 수열
-					count++;                               // 99개 + 100 이상 한수 개수
+					count++;                           // 99개 + 100 이상 한수 개수
 				}
 			}
 		}

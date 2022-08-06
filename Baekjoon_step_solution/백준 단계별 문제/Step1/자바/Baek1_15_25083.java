@@ -1,9 +1,9 @@
-/* 백준 25083번(step1-14): 새싹 */
+/* 백준 25083번(step1-15): 새싹 */
 /* JAVA - System.out.print */
 
 package step1;
 
-public class Baek1_14_25083 {
+public class Baek1_15_25083 {
 
 	public static void main(String[] args) {
 		System.out.println("         ,r'\"7");

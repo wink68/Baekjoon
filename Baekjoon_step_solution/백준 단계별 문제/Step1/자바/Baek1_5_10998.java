@@ -1,4 +1,4 @@
-/* 백준 1000번(step1-5): A+B */
+/* 백준 10998번(step1-5): AXB */
 /* JAVA - BufferedReader, StringTokenizer */
 
 package step1;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Baek1_5_1000 {
+public class Baek1_5_10998 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +17,7 @@ public class Baek1_5_1000 {
 		int A =Integer.parseInt(st.nextToken());   // 쪼개진 문자열(토큰) → 정수
 		int B =Integer.parseInt(st.nextToken());   // 쪼개진 문자열(토큰) → 정수
 		
-		System.out.println(A+B);
+		System.out.println(A*B);
 
 	}
 

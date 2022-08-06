@@ -1,11 +1,11 @@
-/* 백준 10430번(step1-12): 나머지 */
+/* 백준 10430번(step1-11): 나머지 */
 /* JAVA - Scanner */
 
 package step1;
 
 import java.util.Scanner;
 
-public class Baek1_12_10430_1 {
+public class Baek1_11_10430_1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		

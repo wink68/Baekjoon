@@ -21,7 +21,7 @@ public class Baek6_8_5622 {
 			
 			switch (a) {
 			case 'A' : case 'B' : case 'C' : // 다이얼 2에 해당하는 문자
-				time +=3;                    // 2를 누를려면 3초 필요
+				time +=3;                // 2를 누를려면 3초 필요
 				break;
 				
 			case 'D' : case 'E' : case 'F' : // 다이얼 3에 해당하는 문자

@@ -1,10 +1,10 @@
-/* 백준 10172번(step1-4): 개 입력 */
+/* 백준 10172번(step1-14): 개 입력 */
 /* JAVA - System.out.print */
 
 
 package step1;
 
-public class Baek1_4_10172 {
+public class Baek1_14_10172 {
 
 	public static void main(String[] args) {
 		System.out.println("|\\_/|");
