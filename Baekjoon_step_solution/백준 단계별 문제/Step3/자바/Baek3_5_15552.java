@@ -22,7 +22,7 @@ public class Baek3_5_15552 {
 			StringTokenizer st = new StringTokenizer(br.readLine(), " ");  // 문자열을 기준으로 공백 나눔
 			
 			int a = Integer.parseInt(st.nextToken());  // Integer.parseInt() : 문자열을 정수로 변환
-			int b = Integer.parseInt(st.nextToken());  // .nextToken() : 
+			int b = Integer.parseInt(st.nextToken());  // .nextToken() : 쪼개진 문자(토큰, Token) 입력
 			
 			bw.write((a+b + "\n"));
 			
