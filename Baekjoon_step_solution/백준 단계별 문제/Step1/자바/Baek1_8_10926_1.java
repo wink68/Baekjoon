@@ -1,11 +1,11 @@
-/* 백준 10926번(step1-10): ??! 문자열 추가 */
+/* 백준 10926번(step1-8): ??! 문자열 추가 */
 /* JAVA - Scanner */
 
 package step1;
 
 import java.util.Scanner;
 
-public class Baek1_10_10926_1 {
+public class Baek1_8_10926_1 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
