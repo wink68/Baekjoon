@@ -16,14 +16,14 @@ public class Baek3_9_2439_2 {
 		
 		StringBuilder sb = new StringBuilder();
 		
-		for (int i=1; i<=N; i++) {             // i는 줄의 수
+		for (int i=1; i<=N; i++) {                 // i는 줄의 수
 			for (int j=1; j <= N-i; j++) {     // j는 공백의 수
 				sb.append(" ");
 			}
 			for (int k=1; k<=i; k++) {         // k는 별의 수
 				sb.append("*");
 			}
-			sb.append("\n");            // 별 타워 층 만들기
+			sb.append("\n");                   // 별 타워 층 만들기
 			
 		}
 		System.out.print(sb);
