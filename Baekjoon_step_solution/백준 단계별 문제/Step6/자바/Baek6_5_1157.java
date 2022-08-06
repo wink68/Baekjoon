@@ -1,4 +1,4 @@
-/* 백준 2675번(step6-5): 단어 공부 */
+/* 백준 1157번(step6-5): 단어 공부 */
 /* JAVA - BufferedReader */
 
 package step6;
