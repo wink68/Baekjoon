@@ -14,7 +14,7 @@ public class Baek3_8_2438_1 {
 		
 		int N = Integer.parseInt(br.readLine());
 		
-		for (int i=1; i <= N; i++) {         // i는 줄의 수
+		for (int i=1; i <= N; i++) {             // i는 줄의 수
 			for (int j=1; j <= i; j++) {     // j는 별의 수
 				System.out.print("*");
 			}
