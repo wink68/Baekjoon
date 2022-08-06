@@ -1,4 +1,4 @@
-/* 백준 1001번(step1-6): A-B */
+/* 백준 1001번(step1-4): A-B */
 /* JAVA - BufferedReader, StringTokenizer */
 
 package step1;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Baek1_6_1001 {
+public class Baek1_4_1001 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
