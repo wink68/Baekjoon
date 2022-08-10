@@ -16,9 +16,9 @@ public class Baek2442_2 {
 		
 		int N = Integer.parseInt(br.readLine());
 		
-		for (int i=1; i <= N; i++) {                                     // i는 줄의 수
+		for (int i=1; i <= N; i++) {                                         // i는 줄의 수
 			System.out.println(BLANK.repeat(N-i) + STAR.repeat(2*i-1));  // 공백은 N-i개
-		}                                                                // 별은 (2*줄의 수-1) 씩 증가
+		}                                                                    // 별은 (2*줄의 수-1) 씩 증가
 		br.close();
 	}
 		
