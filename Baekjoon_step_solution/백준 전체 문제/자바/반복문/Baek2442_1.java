@@ -20,7 +20,7 @@ public class Baek2442_1 {
 		
 		int N = Integer.parseInt(br.readLine());
 		
-		for (int i=1; i <= N; i++) {           // i는 줄의 수
+		for (int i=1; i <= N; i++) {               // i는 줄의 수
 			for (int j=N; j > i; j--) {        // j는 공백의 수
 				System.out.print(BLANK);
 			}
