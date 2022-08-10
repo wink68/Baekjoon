@@ -1,4 +1,4 @@
-/* 백준 2439번(step3-9): 별찍기 */
+/* 백준 2439번(step3-9): 별찍기 2 */
 /* JAVA - BufferedReader */
 
 package step3;

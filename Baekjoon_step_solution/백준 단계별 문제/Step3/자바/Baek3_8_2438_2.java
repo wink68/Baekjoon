@@ -1,4 +1,4 @@
-/* 백준 2438번(step3-8): 별찍기 */
+/* 백준 2438번(step3-8): 별찍기 1 */
 /* JAVA - BufferedReader, StringBuilder */
 
 package step3;
