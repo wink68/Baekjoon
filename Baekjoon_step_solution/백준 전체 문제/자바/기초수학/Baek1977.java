@@ -22,14 +22,14 @@ public class Baek1977 {
 		
 		// Math.floor() : 소수점 내림
 		for (int i=m; i <= Math.floor(Math.sqrt(N)); i++) {  // 제곱근 m과 n 사이의 제곱근 찾기
-			sum += Math.pow(i, 2);              // 완전제곱수의 총합 계산
+			sum += Math.pow(i, 2);                           // 완전제곱수의 총합 계산
 		}
 		
 		if (sum > 0) {
 			System.out.println(sum);
-			System.out.print((int) Math.pow(m, 2));     // 완전제곱수 최소값
+			System.out.print((int) Math.pow(m, 2));   // 완전제곱수 최소값
 		}
-		else                                    // 합이 0일땐 = 완전제곱수 X
+		else                                          // 합이 0일땐 = 완전제곱수 X
 			System.out.print(-1);
 		
 		br.close();
