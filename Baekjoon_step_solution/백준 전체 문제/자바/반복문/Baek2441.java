@@ -21,8 +21,8 @@ public class Baek2441 {
 		
 		int N = Integer.parseInt(br.readLine());
 		
-		for (int i=1; i <= N; i++) {           // i는 줄의 수
-			for (int j=1; j <= N; j++) {       // j는 공백의 수+1
+		for (int i=1; i <= N; i++) {                   // i는 줄의 수
+			for (int j=1; j <= N; j++) {           // j는 공백의 수+1
 				if (j >= i) {                  // i와 j를 비교하여 공백 입력
 					System.out.print(STAR);
 				} else {
