@@ -1,4 +1,4 @@
-/* 백준 2750번: 수 정렬하기 */
+/* 백준 2750번(step11-1): 수 정렬하기 */
 /* JAVA - BufferedReader, Arrays.sort() */
 
 package step11;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Baek2750 {
+public class Baek11_1_2750 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
