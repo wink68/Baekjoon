@@ -22,7 +22,7 @@ public class Baek14_2_1037 {
 			divisor[i] = Integer.parseInt(st.nextToken());  // 배열에 약수 입력
 		}
 		
-		Arrays.sort(divisor);  // 작은 숫자부터 배열 정렬
+		Arrays.sort(divisor);                           // 작은 숫자부터 배열 정렬
 		System.out.println(divisor[0] * divisor[n-1]);  // N = 제일 작은 약수 * 제일 큰 약수
 		br.close();
 	}
