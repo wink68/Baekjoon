@@ -21,13 +21,13 @@ public class Baek7_6_2775_1 {
 			APT[i][1] = 1;   // 1호 라인,  1호 = 1호 - 0호 (0호가 없기에 1호를 미리 만들어 줌)
 		}
 		
-		for (int i=1; i < 15; i++) {      // i = k층, 층수
+		for (int i=1; i < 15; i++) {          // i = k층, 층수
 			for (int j=2; j < 15; j++) {  // j = n호, 호수
 				APT[i][j] = APT[i-1][j] + APT[i][j-1];
 			}
 		}
 		
-		for (int i=0; i < T; i++) {  // 각 테스트의 k와 n이 다른 줄로 되어 있기에 이중 for문 활용
+		for (int i=0; i < T; i++) {    // 각 테스트의 k와 n이 다른 줄로 되어 있기에 이중 for문 활용
 			int k = sc.nextInt(); 
 			int n = sc.nextInt();
 			System.out.println(APT[k][n]);
