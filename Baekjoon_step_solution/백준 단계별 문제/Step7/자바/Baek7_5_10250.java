@@ -25,14 +25,14 @@ public class Baek7_5_10250 {
 			
 			
 			// 배정: Y는 층수, X는 호수 (엘리베이터로부터 떨어진 거리)
-			if (N % H == 0) {   // 꼭대기 층, 꼭대기층은 몫 = 호수
+			if (N % H == 0) {       // 꼭대기 층, 꼭대기층은 몫 = 호수
 				int Y = H *100;
 				int X = N / H;
 				sb.append(Y + X).append('\n');
 				
 			} else {
 				int Y = (N % H) *100;
-				int X = (N / H) +1;  // 몫이 호수, 몫이 0일때 맨 처음 1호수가 있기에 +1
+				int X = (N / H) +1;            // 몫이 호수, 몫이 0일때 맨 처음 1호수가 있기에 +1
 				sb.append(Y + X).append('\n');
 			}
 		}

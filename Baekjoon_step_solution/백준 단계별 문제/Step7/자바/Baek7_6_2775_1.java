@@ -1,0 +1,38 @@
+/* 백준 2775번(step7-6): 부녀회장이 될테야, 2차원 배열 */
+/* JAVA - Scanner */
+
+package step7;
+
+import java.util.Scanner;
+
+public class Baek7_6_2775_1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int T = sc.nextInt();  // 테스트 수
+		
+		// 0층 1호부터,  k층 n호 = k-1층 n호까지의 합
+		// 1 <= k, n <= 14
+		int[][] APT = new int[15][15]; 
+		
+		for (int i=0; i <15; i++) {
+			APT[0][i] = i;   // 0층
+			APT[i][1] = 1;   // 1호 라인,  1호 = 1호 - 0호 (0호가 없기에 1호를 미리 만들어 줌)
+		}
+		
+		for (int i=1; i < 15; i++) {          // i = k층, 층수
+			for (int j=2; j < 15; j++) {  // j = n호, 호수
+				APT[i][j] = APT[i-1][j] + APT[i][j-1];
+			}
+		}
+		
+		for (int i=0; i < T; i++) {    // 각 테스트의 k와 n이 다른 줄로 되어 있기에 이중 for문 활용
+			int k = sc.nextInt(); 
+			int n = sc.nextInt();
+			System.out.println(APT[k][n]);
+		}
+		sc.close();
+	}
+
+}
