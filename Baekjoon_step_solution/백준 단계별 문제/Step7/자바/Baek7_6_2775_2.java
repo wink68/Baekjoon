@@ -23,7 +23,7 @@ public class Baek7_6_2775_2 {
 			APT[i][1] = 1;   // 1호 라인,  1호 = 1호 - 0호 (0호가 없기에 1호를 미리 만들어 줌)
 		}
 		
-		for (int i=1; i < 15; i++) {      // i = k층, 층수
+		for (int i=1; i < 15; i++) {          // i = k층, 층수
 			for (int j=2; j < 15; j++) {  // j = n호, 호수
 				APT[i][j] = APT[i-1][j] + APT[i][j-1];
 			}
