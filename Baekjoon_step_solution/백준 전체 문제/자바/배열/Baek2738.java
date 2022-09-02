@@ -21,7 +21,7 @@ public class Baek2738 {
 		
 		
 		// 1. A 배열에 값 대입
-		for (int i=0; i < N; i++) {       // N개의 행
+		for (int i=0; i < N; i++) {           // N개의 행
 			st = new StringTokenizer(br.readLine());
 			
 			for (int j=0; j < M; j++) {   // M개의 열
@@ -33,7 +33,7 @@ public class Baek2738 {
 		// 2. A배열 값에 B배열 값 합산
 		StringBuilder sb = new StringBuilder();
 		
-		for (int i=0; i < N; i++) {       // N개의 행
+		for (int i=0; i < N; i++) {           // N개의 행
 			st = new StringTokenizer(br.readLine());
 			
 			for (int j=0; j < M; j++) {   // M개의 열
